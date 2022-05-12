@@ -1,0 +1,192 @@
+.carousel-item {
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.carousel-item img {
+    height: 100%;
+    width: 100%;
+}
+
+.section1-left img {
+    height: 100%;
+    width: 100%;
+}
+
+#carousel {
+    height: 640px;
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+}
+
+.carousel-control {
+    display: flex;
+    column-gap: 25px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 50px;
+}
+
+.carousel-dot {
+    width: 15px;
+    height: 15px;
+    background-color: #616161;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.carousel-item.active {
+    display: block;
+
+}
+
+.section1 {
+    display: flex;
+    column-gap: 20px;
+    height: 800px;
+    padding: 20px;
+}
+
+.section1-left {
+    flex: 1;
+    height: 100%;
+    position: relative;
+}
+
+.section1-left-text {
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    top: 25%;
+    transform: translateX(-50%) translateY(-25%);
+}
+
+.section1-left-text .title {
+    font-size: 48px;
+    line-height: 36px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.section1-left-text .blurb {
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.section1-right {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    flex: 1;
+    height: 100%;
+}
+
+.section1-right>a {
+    position: relative;
+}
+
+.section1-right-text {
+    font-size: 40px;
+    line-height: 44px;
+    font-weight: bold;
+    color: black;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.section1-right img {
+    height: 100%;
+    width: 100%;
+}
+
+.section1-right>div:nth-of-type(1) {
+    flex: 2;
+}
+
+.section1-right>div:nth-of-type(2) {
+    flex: 1;
+}
+
+.section2 {
+    display: flex;
+    column-gap: 20px;
+    height: 350px;
+    margin: 0 20px;
+}
+
+.section2-item {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    flex: 1;
+}
+
+.section2-item-text {
+    justify-self: flex-end;
+    margin-top: auto;
+    background-color: #fff2ea;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.section3 {
+    display: flex;
+    height: 500px;
+    margin: 20px;
+}
+
+.section3-text {
+    width: 300px;
+    height: 100%;
+    justify-self: flex-end;
+    margin-left: auto;
+    background-color: #fff2ea;
+    padding: 20px;
+}
+
+.section3-text .title {
+    font-size: 40px;
+    line-height: 44px;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+.section3-text .blurb {
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 12px;
+}
+
+.section3-item {
+    height: 100%;
+    flex: 1;
+}
+
+.section2-item-image {
+    flex: 1;
+}
+
+.grow {
+    cursor: pointer;
+    user-select: none;
+    transition: transform 0.3s;
+    text-decoration: none;
+    color: black;
+}
+
+.grow:active,
+.grow:focus,
+.grow:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.grow:hover {
+    transform: scale(1.02);
+}

@@ -1,0 +1,25 @@
+.warning {
+    width: 500px;
+    margin-top: 100px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.warning img {
+    width: 100%;
+}
+
+.warning div {
+    font-size: 28px;
+    padding: 20px;
+}
+
+.warning a {
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+}
